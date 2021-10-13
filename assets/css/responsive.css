@@ -1,0 +1,89 @@
+@media (max-width: 46.1875em) {
+    .nav > li {
+        display: block;
+    }
+
+    .header {
+        overflow: hidden;
+    }
+
+    .search-btn {
+        display: none;
+    }
+
+    .menu-btn {
+        color: white;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 46px;
+        display: block;
+        padding: 14px 17px;
+        font-size: 20px;
+    }
+    
+    .menu-btn:hover {
+        background-color: #ccc;
+        color: black;
+    }
+
+    .sub-nav {
+        position: initial;
+        background-color: #333;
+    }
+
+    .sub-nav > li > a {
+        color: white;
+        padding-left: 30px;
+    }
+
+    .member-content .single-member {
+        float: left;
+        width: 100%;
+    }
+
+    .buy-tickets .single-ticket {
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    .buy-tickets .buy-btn {
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 14px 12px;
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .contact-content .infomation-contact {
+        width: 100%;
+    }
+
+    .contact-content .input-content {
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    .contact-content .name-input {
+        float: left;
+        width: 100%;
+    }
+
+    .contact-content .email-input {
+        float: left;
+        width: 100%;
+        margin-top: 8px;
+    }
+
+    .input-content button {
+        margin-top: 16px;
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 16px 18px 14px;
+        appearance: none;
+        width: 100%;
+    }
+
+}
